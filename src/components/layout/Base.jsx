@@ -1,9 +1,9 @@
 import { Outlet } from "react-router-dom"
 
-const Layout = () => {
+const Base = () => {
     return (
         <Outlet />
     )
 }
 
-export default Layout
+export default Base

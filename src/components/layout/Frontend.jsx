@@ -1,9 +1,15 @@
-import Base from "./Base"
+import Footer from "../Footer";
+import Header from "../Header";
+import Base from "./Base";
 
 const Frontend = () => {
     return (
-        <Base />
-    )
-}
+        <>
+            <Header />
+            <Base />
+            <Footer />
+        </>
+    );
+};
 
-export default Frontend
+export default Frontend;

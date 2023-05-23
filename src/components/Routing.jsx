@@ -5,7 +5,7 @@ import Base from "./layout/Base";
 
 const Routing = () => {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/page" element={<Base />}>
